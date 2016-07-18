@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  category: MyString
+  description: MyString
+  restaurant: MyString
+  loca_simple: MyString
+  loca_map: MyString
+  image_file: MyString
+
+two:
+  name: MyString
+  category: MyString
+  description: MyString
+  restaurant: MyString
+  loca_simple: MyString
+  loca_map: MyString
+  image_file: MyString
