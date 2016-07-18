@@ -1,0 +1,9 @@
+/home/ec2-user/.rvm/rubies/ruby-2.2.4/bin/ruby -r ./siteconf20160718-5894-1uvnhc3.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+make "DESTDIR=" install

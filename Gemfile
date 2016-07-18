@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 
 
+##Install carrierwave to upload image files
+gem 'carrierwave'
+gem 'fog'
+#To use mini_magick, install imagemagick in your linux
+gem 'mini_magick', :git => 'git://github.com/minimagick/minimagick.git', :ref => '6d0f8f953112cce6324a524d76c7e126ee14f392'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
 # Use sqlite3 as the database for Active Record
