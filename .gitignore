@@ -5,7 +5,7 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore Credential
-config/initializers/aws_s3.rb
+aws_s3.rb
 
 # Ignore bundler config.
 /.bundle
