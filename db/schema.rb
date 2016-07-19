@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160718202446) do
+ActiveRecord::Schema.define(version: 20160719114019) do
 
   create_table "foods", force: :cascade do |t|
     t.string   "name"
@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20160718202446) do
     t.string   "restaurant"
     t.string   "loca_simple"
     t.string   "loca_map"
-    t.string   "image_file"
+    t.string   "image"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end

@@ -1,3 +1,3 @@
 class Food < ApplicationRecord
-	mount_uploader :image_file, ImageFileUploader
+	mount_uploader :image, ImageFileUploader
 end

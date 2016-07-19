@@ -7,7 +7,7 @@ one:
   restaurant: MyString
   loca_simple: MyString
   loca_map: MyString
-  image_file: MyString
+  image: MyString
 
 two:
   name: MyString
@@ -16,4 +16,4 @@ two:
   restaurant: MyString
   loca_simple: MyString
   loca_map: MyString
-  image_file: MyString
+  image: MyString
