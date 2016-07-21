@@ -61,6 +61,15 @@ class FoodsController < ApplicationController
     end
   end
 
+  # POST /foods/upload
+  # POST /foods/upload.json
+  def upload
+    Food.create(name: params[:name], category: params[:category], description: params[:description],
+                restaurant: params[:restaurant], loca_simple: params[:loca_simple],
+                loca_map: params[:loca_map], image: params[:image])
+    redirect_to "/"
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_food
