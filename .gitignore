@@ -22,3 +22,6 @@ config/initializers/aws_s3.rb
 
 # Ignore Byebug command history file.
 .byebug_history
+
+/public/uploads/tmp/*
+/vendor/*
