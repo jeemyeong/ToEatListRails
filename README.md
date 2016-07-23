@@ -44,3 +44,34 @@
 
 6. DB와 연동되는 별도의 CMS(관리시스템)을 구축시 가점.
   * Rails Scaffold를 이용하여 CMS구축(http://52.78.99.238/foods)
+
+
+#평가를 위한 보아야 할 부분
+* Google Play Store: https://play.google.com/store/apps/details?id=com.jeemyeong.toeatlist
+
+* Rails: https://github.com/jeemyeong/ToEatListrails/
+
+ * Controller: https://github.com/jeemyeong/ToEatListrails/blob/master/app/controllers/foods_controller.rb
+ 
+ * View: https://github.com/jeemyeong/ToEatListrails/blob/master/app/views/foods/index.html.erb
+
+ * CMS: http://52.78.99.238/foods
+     
+ * DB Table Structure: https://github.com/jeemyeong/ToEatListrails/blob/master/db/migrate/20160719114019_create_foods.rb
+ 
+ * Image Uploader: https://github.com/jeemyeong/ToEatListrails/blob/master/app/uploaders/image_file_uploader.rb
+  * CarrierWave를 통한 이미지 업로드 구축
+  * fog를 통하여 aws s3 storage에 이미지 저장
+  * mini_magick을 통하여 이미지 400 * 400 (px)으로 저장함
+ 
+* Android: https://github.com/jeemyeong/ToEatList
+
+ * Controller: https://github.com/jeemyeong/ToEatList/tree/master/app/src/main/java/com/jeemyeong/toeatlist/Controller
+
+ * View: https://github.com/jeemyeong/ToEatList/tree/master/app/src/main/java/com/jeemyeong/toeatlist/View
+ 
+ * Model: https://github.com/jeemyeong/ToEatList/tree/master/app/src/main/java/com/jeemyeong/toeatlist/Model
+
+ * Retrofit Interface : https://github.com/jeemyeong/ToEatList/blob/master/app/src/main/java/com/jeemyeong/toeatlist/ServerInterface.java 
+ 
+ * Layout: https://github.com/jeemyeong/ToEatList/tree/master/app/src/main/res/layout
