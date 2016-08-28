@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160719114019) do
+ActiveRecord::Schema.define(version: 20160828151001) do
 
   create_table "foods", force: :cascade do |t|
     t.string   "name"
@@ -22,6 +22,14 @@ ActiveRecord::Schema.define(version: 20160719114019) do
     t.string   "image"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+  end
+
+  create_table "foodstagrams", force: :cascade do |t|
+    t.integer  "instagram_id", limit: 8
+    t.string   "img"
+    t.string   "tag"
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
   end
 
 end

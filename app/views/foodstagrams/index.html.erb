@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Foodstagrams</h1>
+
+<div class="row">
+  <% @foodstagrams.each do |foodstagram| %>
+    <div class="col-md-4" style="height: 600px;">
+      <br><br><hr>
+      <%= foodstagram.instagram_id %><br>
+      <img src="<%= foodstagram.img %>" height=300 width=300><br>
+      <%= foodstagram.tag %><br><br>
+      <%= link_to 'Show', foodstagram %>
+      <%= link_to 'Edit', edit_foodstagram_path(foodstagram) %>
+      <%= link_to 'Destroy', foodstagram, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </div>
+  <% end %>
+</div>
+<br>
+
+<%= link_to 'New Foodstagram', new_foodstagram_path %>

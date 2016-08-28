@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'nokogiri'
 ##Install carrierwave to upload image files
 gem 'carrierwave'
 gem 'fog'

@@ -1,0 +1,2 @@
+class Foodstagram < ApplicationRecord
+end

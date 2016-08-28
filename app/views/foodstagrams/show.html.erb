@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Instagram:</strong>
+  <%= @foodstagram.instagram_id %>
+</p>
+
+<p>
+  <strong>Img:</strong>
+  <%= @foodstagram.img %>
+</p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @foodstagram.tag %>
+</p>
+
+<%= link_to 'Edit', edit_foodstagram_path(@foodstagram) %> |
+<%= link_to 'Back', foodstagrams_path %>
